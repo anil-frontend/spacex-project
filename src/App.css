@@ -1,0 +1,115 @@
+body{
+  background-color: #F2F2F2 !important;
+}
+
+.App {
+  background-color: #F2F2F2;
+}
+
+.App-loader-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-loader-box{  
+  position: relative;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(22px + 2vmin);
+  color: #0A0A0A;
+  padding-left: 16px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-filter-card {
+  flex-basis: 289px;
+  margin: 0 15px 15px 0;
+}
+
+.App-filter-result {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% - 304px);
+  justify-content: space-around;
+}
+
+.App-filter-header {
+  color: #111111;
+}
+
+.App-filter-heading {
+  text-align: center !important;
+  margin-top: 1rem;
+}
+
+.App-filter-heading-launch-year {
+  text-align: center !important;
+  margin-top: -1rem;
+}
+
+.App-filters-hr {
+  margin: 0.4rem;
+}
+
+.App-filter-button-container{
+  width:100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-Developer-name {
+  text-align: center !important;
+}
+
+.App-filter-button {
+  flex: 0 40%;
+  margin: 10px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+    /* ruleset for 700px */
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+    /* ruleset for 700px - 1024px */
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    /* ruleset for 1024px - 1440px */
+}
