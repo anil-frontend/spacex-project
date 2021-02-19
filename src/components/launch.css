@@ -1,27 +1,28 @@
-.Rocket-details-card{
+.specex-card{
     padding:1rem;
-    margin-bottom: 15px;
+    margin: 0 15px 15px 0;
 }
 
-.Rocket-mission-image{
+.specex-card-img{
     background-color: #F2F2F2;
 }
 
-.Rocket-mission-name-flight-number {
+.specex-card-img__number {
     color: #63659f;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     margin-bottom: 1rem;
+    max-width: 255px;
 }
 
-.Rocket-detail-label{
+.specex-card-label{
     color: #181818;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
 }
 
-.Rocket-detail-value{
+.specex-card-value{
     color: #63659f;
     font-weight: 400;
 }

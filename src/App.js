@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Card, Button, Row } from 'react-bootstrap';
-import RocketLaunchDetails from './components/RocketLaunchDetails';
+import Launch from './components/launch';
 import querystring from 'querystring';
 import './App.css';
-import load from './load.gif';
+import load from './loading.gif';
 
 const API_BASE_URL = "https://api.spacexdata.com/v3/launches?limit=100";
 
@@ -145,7 +144,7 @@ class App extends Component {
                 </Card>
                 <div class="App-filter-result">
                   {data.map(details => {
-                    return <RocketLaunchDetails details={details} />;
+                    return <Launch details={details} />;
                   })}
                 </div>
             </div>
